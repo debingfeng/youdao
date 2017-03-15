@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.main-content {
+    position: relative;
+    padding: 60px 15px;
+    z-index: 1;
+}
+.title-font {
+    font-size: 16px;
+}
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+.icon-add {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: 0;
+}
+.icon-enter {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -34px 0;
+}
+.icon-group {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -102px 0;
+}
+.icon-group-active {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -136px 0;
+}
+.icon-ic_survey {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -170px 0;
+}
+.icon-ic_synchronous {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -204px 0;
+}
+.icon-add-folder {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -238px 0;
+}
+.icon-more {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -352px 0;
+}
+.icon-note-active {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -386px 0;
+    /*transform: scale(0.8);*/
+}
+/*.icon-note {*/
+    /*background: url("../images/spirit.png") no-repeat;*/
+    /*background-position: -420px 0;*/
+/*}*/
+.icon-order {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -272px 0;
+}
+
+.icon-profile {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -454px 0;
+}
+.icon-profile-active {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -488px 0;
+}
+.icon-survey {
+    background: url("../images/spirit.png") no-repeat;
+    background-position: -522px 0;
+}
+.icon-close {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/close.png") no-repeat;
+    background-size: 25px;
+    background-position: 0;
+    position: absolute;
+    left: 75%;
+    top: 5px;
+
+}
